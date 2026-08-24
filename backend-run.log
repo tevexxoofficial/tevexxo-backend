@@ -1,0 +1,127 @@
+[db] MongoDB connected: ac-gay2hwp-shard-00-00.tslyvyu.mongodb.net/test
+[server] Tevexxo Admin API listening on http://localhost:5000
+[server] Socket.IO ready for real-time admin updates
+[0mGET /api/admin/health [32m200[0m 3.008 ms - 91[0m
+[0mPOST /api/admin/auth/login [33m401[0m 323.847 ms - 55[0m
+[0mPOST /api/admin/auth/login [32m200[0m 538.135 ms - 687[0m
+[0mGET /api/admin/users [32m200[0m 130.978 ms - 1879[0m
+[0mGET /api/admin/courses [32m200[0m 131.144 ms - 2016[0m
+[0mGET /api/admin/programs [32m200[0m 93.266 ms - 1528[0m
+[0mGET /api/admin/projects [32m200[0m 123.485 ms - 1580[0m
+[0mGET /api/admin/enrollments [32m200[0m 84.971 ms - 1870[0m
+[0mGET /api/admin/orders [32m200[0m 121.013 ms - 1682[0m
+[0mGET /api/admin/inquiries [32m200[0m 108.734 ms - 2074[0m
+[0mGET /api/admin/blog [32m200[0m 113.921 ms - 1475[0m
+[0mGET /api/admin/testimonials [32m200[0m 122.220 ms - 1486[0m
+[0mGET /api/admin/mentors [32m200[0m 108.470 ms - 1523[0m
+[0mGET /api/admin/courses [32m200[0m 116.541 ms - 2016[0m
+[0mPOST /api/admin/courses [32m201[0m 275.811 ms - 309[0m
+[0mGET /api/admin/courses [32m200[0m 130.834 ms - 2302[0m
+[0mPUT /api/admin/courses/6a8ada49edce1f951f572a80 [32m200[0m 293.195 ms - 321[0m
+[0mDELETE /api/admin/courses/6a8ada49edce1f951f572a80 [32m200[0m 272.372 ms - 56[0m
+[0mGET /api/admin/courses [32m200[0m 128.840 ms - 2016[0m
+[0mGET /api/admin/courses/notanid [33m400[0m 50.074 ms - 56[0m
+[0mPOST /api/admin/courses [33m400[0m 47.320 ms - 61[0m
+[0mPOST /api/admin/auth/login [33m401[0m 438.883 ms - 55[0m
+[0mPOST /api/admin/auth/login [32m200[0m 1071.243 ms - 687[0m
+[0mGET /api/admin/users [33m401[0m 0.485 ms - 76[0m
+[0mGET /api/admin/auth/me [32m200[0m 498.884 ms - 439[0m
+[0mGET /api/admin/dashboard [32m200[0m 1697.024 ms - 3103[0m
+[0mPOST /api/admin/users [32m201[0m 281.914 ms - 316[0m
+[0mPOST /api/admin/users [33m409[0m 104.890 ms - 84[0m
+[0mPUT /api/admin/users/6a8ada62edce1f951f572aba [32m200[0m 276.948 ms - 322[0m
+[0mGET /api/admin/users [32m200[0m 102.587 ms - 2178[0m
+[0mPOST /api/admin/courses [32m201[0m 261.656 ms - 318[0m
+[0mPUT /api/admin/courses/6a8ada63edce1f951f572acf [32m200[0m 296.443 ms - 320[0m
+[0mGET /api/admin/dashboard/stats [32m200[0m 1121.771 ms - 316[0m
+[0mPOST /api/admin/courses [33m400[0m 67.444 ms - 61[0m
+[0mPOST /api/admin/programs [32m201[0m 273.655 ms - 287[0m
+[0mPOST /api/admin/projects [32m201[0m 299.134 ms - 299[0m
+[notification] failed to create: Notification validation failed: type: `inquirie` is not a valid enum value for path `type`.
+[0mPOST /api/admin/inquiries [32m201[0m 205.902 ms - 332[0m
+[0mPOST /api/admin/orders [32m201[0m 341.076 ms - 275[0m
+[0mGET /api/admin/audit-logs?limit=200 [32m200[0m 133.632 ms - 8916[0m
+[0mGET /api/admin/activity/recent?limit=5 [32m200[0m 121.226 ms - 1630[0m
+[0mGET /api/admin/notifications [32m200[0m 127.931 ms - 2598[0m
+[0mPUT /api/admin/notifications/read-all [32m200[0m 156.290 ms - 61[0m
+[0mGET /api/admin/notifications [32m200[0m 129.172 ms - 2590[0m
+[0mGET /api/admin/settings [32m200[0m 112.367 ms - 513[0m
+[0mPUT /api/admin/settings [32m200[0m 209.077 ms - 514[0m
+[0mGET /api/admin/settings [32m200[0m 108.870 ms - 514[0m
+[0mPUT /api/admin/settings [32m200[0m 179.303 ms - 512[0m
+[0mDELETE /api/admin/users/6a8ada62edce1f951f572aba [32m200[0m 310.419 ms - 54[0m
+[0mDELETE /api/admin/courses/6a8ada63edce1f951f572acf [32m200[0m 275.220 ms - 56[0m
+[0mDELETE /api/admin/programs/6a8ada65edce1f951f572aee [32m200[0m 253.224 ms - 57[0m
+[0mDELETE /api/admin/projects/6a8ada65edce1f951f572af7 [32m200[0m 267.953 ms - 57[0m
+[0mDELETE /api/admin/inquiries/6a8ada65edce1f951f572b00 [32m200[0m 261.211 ms - 57[0m
+[0mDELETE /api/admin/orders/6a8ada66edce1f951f572b08 [32m200[0m 258.486 ms - 55[0m
+[0mGET /api/admin/users [32m200[0m 103.786 ms - 1879[0m
+[0mGET /api/admin/audit-logs?action=DELETE&limit=50 [32m200[0m 326.439 ms - 4610[0m
+[0mGET /api/admin/nonexistent [33m404[0m 0.744 ms - 73[0m
+[0mPOST /api/admin/auth/login [32m200[0m 390.686 ms - 687[0m
+[0mGET /api/admin/courses [32m200[0m 96.324 ms - 2016[0m
+[socket] admin connected: Super Admin (aP7Uq2xWWVArCrCSAAAB)
+[0mPOST /api/admin/courses [32m201[0m 268.523 ms - 325[0m
+[0mGET /api/admin/courses [32m200[0m 96.511 ms - 2318[0m
+[0mDELETE /api/admin/courses/6a8ada7aedce1f951f572b64 [32m200[0m 250.986 ms - 56[0m
+[0mGET /api/admin/courses [32m200[0m 115.583 ms - 2016[0m
+[socket] admin disconnected: Super Admin (aP7Uq2xWWVArCrCSAAAB)
+[0mPOST /api/admin/auth/login [32m200[0m 422.462 ms - 687[0m
+[0mGET /api/admin/reports/enrollments [32m200[0m 570.958 ms - -[0m
+[0mGET / [33m404[0m 1.021 ms - 52[0m
+[0mGET / [33m404[0m 0.298 ms - 52[0m
+[0mGET / [33m404[0m 0.470 ms - 52[0m
+[0mGET / [33m404[0m 0.595 ms - 52[0m
+[0mGET / [33m404[0m 0.287 ms - 52[0m
+[0mGET /api/admin/auth/me [33m401[0m 48.598 ms - 61[0m
+[0mGET /api/admin/auth/me [33m401[0m 44.373 ms - 61[0m
+[0mPOST /api/admin/auth/login [32m200[0m 313.148 ms - 687[0m
+[socket] admin connected: Super Admin (9HvvOqmD4_Dynz4pAAAD)
+[0mGET /api/admin/notifications [32m200[0m 487.804 ms - 2918[0m
+[0mGET /api/admin/dashboard [32m200[0m 1768.540 ms - 3054[0m
+[0mPOST /api/admin/auth/logout [32m200[0m 127.410 ms - 52[0m
+[socket] admin disconnected: Super Admin (9HvvOqmD4_Dynz4pAAAD)
+[0mPOST /api/admin/auth/login [32m200[0m 324.976 ms - 687[0m
+[socket] admin connected: Super Admin (hXrQLRZrevzMFFSnAAAF)
+[0mGET /api/admin/notifications [36m304[0m 492.789 ms - -[0m
+[0mGET /api/admin/dashboard [32m200[0m 1353.679 ms - 3051[0m
+[socket] admin disconnected: Super Admin (hXrQLRZrevzMFFSnAAAF)
+[0mGET /api/admin/auth/me [32m200[0m 392.775 ms - 439[0m
+[0mGET /api/admin/auth/me [36m304[0m 110.317 ms - -[0m
+[socket] admin connected: Super Admin (7xaJtB300zJEOO50AAAH)
+[0mGET /api/admin/courses [32m200[0m 103.249 ms - 2016[0m
+[0mGET /api/admin/notifications [36m304[0m 120.084 ms - -[0m
+[socket] admin disconnected: Super Admin (7xaJtB300zJEOO50AAAH)
+[0mGET /api/admin/auth/me [36m304[0m 374.517 ms - -[0m
+[0mGET /api/admin/auth/me [36m304[0m 91.963 ms - -[0m
+[socket] admin connected: Super Admin (y8eOLc7vIXPbCBZfAAAJ)
+[0mGET /api/admin/notifications [36m304[0m 264.441 ms - -[0m
+[0mGET /api/admin/users [32m200[0m 301.691 ms - 1879[0m
+[socket] admin disconnected: Super Admin (y8eOLc7vIXPbCBZfAAAJ)
+[0mGET /api/admin/auth/me [36m304[0m 335.485 ms - -[0m
+[0mGET /api/admin/auth/me [36m304[0m 94.990 ms - -[0m
+[0mGET /api/admin/enrollments [32m200[0m 119.468 ms - 1870[0m
+[socket] admin connected: Super Admin (c5nSFFdKFQZ2ulTZAAAL)
+[0mGET /api/admin/notifications [36m304[0m 661.489 ms - -[0m
+[0mPOST /api/admin/enrollments [32m201[0m 286.044 ms - 303[0m
+[0mPUT /api/admin/enrollments/6a8adda3edce1f951f572be2 [32m200[0m 479.929 ms - 315[0m
+[socket] admin disconnected: Super Admin (c5nSFFdKFQZ2ulTZAAAL)
+[0mGET /api/admin/auth/me [36m304[0m 95.082 ms - -[0m
+[0mGET /api/admin/auth/me [36m304[0m 94.785 ms - -[0m
+[0mGET /api/admin/users [36m304[0m 97.462 ms - -[0m
+[socket] admin connected: Super Admin (mht7pTcjlavUbL3lAAAN)
+[0mGET /api/admin/notifications [32m200[0m 588.621 ms - 3242[0m
+[socket] admin disconnected: Super Admin (mht7pTcjlavUbL3lAAAN)
+[0mGET /api/admin/auth/me [36m304[0m 320.311 ms - -[0m
+[0mGET /api/admin/auth/me [36m304[0m 103.968 ms - -[0m
+[0mGET /api/admin/courses [36m304[0m 100.944 ms - -[0m
+[socket] admin connected: Super Admin (y2dnhtosEzcl6TOzAAAP)
+[0mGET /api/admin/notifications [36m304[0m 481.775 ms - -[0m
+[socket] admin disconnected: Super Admin (y2dnhtosEzcl6TOzAAAP)
+[0mGET /api/admin/auth/me [36m304[0m 85.579 ms - -[0m
+[0mGET /api/admin/auth/me [36m304[0m 103.133 ms - -[0m
+[0mGET /api/admin/notifications [36m304[0m 296.123 ms - -[0m
+[socket] admin connected: Super Admin (JTBFgrI6oTf66emzAAAR)
+[0mGET /api/admin/enrollments [32m200[0m 550.342 ms - 2162[0m
+[socket] admin disconnected: Super Admin (JTBFgrI6oTf66emzAAAR)
+^C
